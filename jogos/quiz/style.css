@@ -1,0 +1,104 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+@font-face {
+    font-family: 'Mojang';
+    src: url('../../fontes/Mojang-Regular.ttf') format('truetype'); /* Verifique o caminho */
+}
+
+/* Estilos de textos */
+.pergunta {
+    font-family: 'Mojang', sans-serif;
+    color: white;
+}
+
+#pergunta {
+    font-family: 'Mojang', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+#mensagem {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilo do container principal */
+#quiz {
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botões de navegação */
+.volta {
+    margin-top: 6px;
+    margin-right: 240px;
+    background-image: url(../../images/botãoVolta.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo do container do quiz */
+.game {
+    width: 300px;
+    height: 400px;
+    background-image: url(../../images/fundoQuiz.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+/* Estilos dos botões de múltipla escolha */
+
+
+#resposta {
+    border: none;
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#opcoes button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Mojang', sans-serif;
+    font-size: small;
+    
+}
+
+#opcoes button:hover {
+    background-color:bisque;
+    color: #000;
+}
+

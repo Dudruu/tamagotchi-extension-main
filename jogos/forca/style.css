@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+p{
+    color: white;
+    font-family: "Mojang",sans-serif;
+    font-size: small;
+}
+
+#palavra p{
+    margin-bottom: -1;
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'Mojang';
+    src: url('../../fontes/Mojang-Regular.ttf') format('truetype'); /* Substitua pelo caminho correto */
+}
+
+.game{
+    width: 300px;
+    height: 400px;
+    background-image: url(../../images/fundoForca.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+#jogo {
+    margin:5px auto;
+    width: 300px;
+    background-size: auto;
+}
+
+.volta{
+    margin-top: 6px;
+    margin-right: 240px;
+    background-image: url(../../images/botãoVolta.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+}
+.menu{
+    margin-top: 5px;
+    width: 99%;
+    height: 60px;
+   
+}
+
+input {
+    font-size: 15px;
+    font-family: "Mojang",sans-serif;
+    background-blend-mode: luminosity;
+}
+
+button {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#mensagem {
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+#mesagem p {
+    padding: 5px;
+}
+
+.game{
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+#btnAdivinhar{
+    background-image: url(../../images/btnAdivinhar.png);
+}
+
+#btnJogarNovamente{
+    background-image: url(../../images/Jogar\ novamente.png);
+}
+
+#btnAdivinhar, #btnJogarNovamente{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: 5px;
+}

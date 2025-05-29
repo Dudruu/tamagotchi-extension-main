@@ -1,0 +1,335 @@
+.container {
+    width: 300px;
+    height: 400px;
+    background-image: url(images/fundoteste3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+
+.tamagotchi {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tamagotchi128 {
+    width: 256px;
+    height: 256px;
+}
+
+#sobrepoe{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    z-index: 1; 
+}
+
+
+.controls {
+    height: 60px;
+    width: 300px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.status {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    margin-right: 4px;
+    border-radius:100% ;
+}
+
+.status-item {
+    width: 95%;
+    margin: 2px 0;
+    border-radius:100% ;
+}
+.status {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha as barras à esquerda */
+    height: auto; /* Ajusta a altura */
+    
+}
+
+.status-item {
+    width: 95%; /* Ajuste a largura para criar espaço para as imagens */
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bar {
+    width: 90%; /* Deixe espaço para a imagem ao lado */
+    border-radius: 15px; /* Arredonda as bordas */
+    background-color: red;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.barint {
+    height: 100%;
+    background-color: greenyellow;
+    border-radius: 15px; /* Arredonda as bordas internas */
+    
+}
+
+.fotoBarraFome {
+    margin-left: 5PX;
+    margin-right: 4px; /* Espaçamento entre a imagem e a barra */
+    width: 25px; /* Ajuste o tamanho conforme necessário */
+    height: 25px;
+    background: no-repeat center;
+    background-size: cover;
+    background-image: url(images/cereja.png);
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 40%;
+}
+.fotoBarraFelicidade {
+    margin-left: 5PX;
+    margin-right: 4px; /* Espaçamento entre a imagem e a barra */
+    width: 25px; /* Ajuste o tamanho conforme necessário */
+    height: 25px;
+    background: no-repeat center;
+    background-size: cover;
+    background-image: url(images/bola.png);
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 100%;
+}
+.fotoBarraLimpeza {
+    margin-left: 5PX;
+    margin-right: 4px; /* Espaçamento entre a imagem e a barra */
+    width: 25px; /* Ajuste o tamanho conforme necessário */
+    height: 25px;
+    background: no-repeat center;
+    background-size: cover;
+    background-image: url(images/sabão.png);
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 40%;
+}
+
+.bar {
+    width: 90%; /* Deixe espaço para a imagem ao lado */
+    height: 13px; /* Ajuste a altura conforme necessário */
+    border-radius: 15px; /* Arredonda as bordas externas */
+    background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+
+}
+
+
+.barint {
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.status-item p {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+#alimentar{
+    background-image: url(images/melancia3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-width: 0;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brincar{
+    background-image: url(images/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-width: 0;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#limpar{
+    background-image: url(images/esponja.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-width: 0;
+    background-color: inherit;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jogar{
+    background-image: url(images/controle.png);
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    border-width: 0;
+    background-color: inherit;
+    width: 63px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-position: center;
+}
+
+.banho {
+    float: left;
+    padding-right: 4px;
+    
+}
+
+.navegar-direita{
+    width: 30px;
+    height: 30px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    margin-top: 65%;
+    margin-right: 5px;
+    bottom: 0;
+    margin-bottom: 15px;
+    z-index: 1;
+    border-width: 0;
+    background-image: url(images/maiorque.png);
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 40%;
+    
+
+}
+
+.navegar-esquerda{
+    width: 30px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    display: flex; 
+    bottom: 0;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    z-index: 1;
+    border-width: 0;
+    background-image: url(images/menorque.png);
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 40%;
+    
+}
+
+.cozinha{
+    width: 300px;
+    height: 400px;
+    background-image: url(images/cozinha.png);
+   
+}
+
+.banheiro{
+    width: 300px;
+    height: 400px;
+    background-image: url(images/banheiro.png);
+}
+
+.fliperama{
+    width: 300px;
+    height: 400px;
+    background-image: url(images/fliperama.png);
+}
+
+.menu{
+    width: 300px;
+    height: 400px;
+    background-image: url(images/nuvem.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.voltar-flip{
+    width: 30px;
+    height: 30px;
+    left: 10;
+    position: absolute;
+    display: flex; 
+    top: 0;
+    margin-left: 12px;
+    margin-top: 20px;
+    z-index: 1;
+    border-width: 0;
+    background-image: url(images/menorque.png);
+    background-color: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco com 40% de transparência */
+    border-radius: 40%;
+}
+
+.divjogo{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border-width: 0;
+    text-align: center;
+    font-family: 'Mojang', sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30%;
+    font-size: medium;
+
+}
+
+.divide-dir{
+    width: 150px;
+    height: 400px;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.divide-esq{
+    width: 150px;
+    height: 400px;
+    float: left; 
+}
+
+.entrar-jogo{
+    display: inline-block;
+    margin-top: 66px;
+    margin-left: 25px;
+}
+
+@font-face {
+    font-family: 'Mojang';
+    src: url('fontes/Mojang-Regular.ttf') format('truetype'); /* Substitua pelo caminho correto */
+}

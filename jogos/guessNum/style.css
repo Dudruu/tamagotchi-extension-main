@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+@font-face {
+    font-family: 'Mojang';
+    src: url('../../fontes/Mojang-Regular.ttf') format('truetype'); /* Substitua pelo caminho correto */
+}
+
+#palpite{
+    border: none;
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.enum{
+    font-family: "Mojang",sans-serif;
+    color: #f0f0f0;
+    font-size: medium;
+}
+#jogo {
+    margin: 50px auto;
+    width: 300px;
+    background: url(../../images/fundoNum.png) no-repeat center;
+    background-size: auto;
+    
+}
+
+input {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#resultado {
+    font-weight: bold;
+    color: white;
+    font-family: "Mojang",sans-serif;
+    margin-top: 15px;
+}
+.game{
+    width: 300px;
+    height: 400px;
+    background-image: url(../../images/fundoNum.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+.volta{
+    margin-top: 6px;
+    margin-right: 240px;
+    background-image: url(../../images/botãoVolta.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+}
+.menu{
+    margin-top: 5px;
+    width: 99%;
+    height: 60px;
+
+}
+
+#btnAdivinhar{
+    background-image: url(../../images/btnAdivinhar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+    padding: 10px 20px;
+    margin-top: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnJogarNovamente{
+    margin: auto;
+    position: relative;
+    background-image: url(../../images/Jogar\ novamente.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 60px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

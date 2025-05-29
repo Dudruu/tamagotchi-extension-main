@@ -1,0 +1,98 @@
+body {
+    font-family: "Mojang", sans-serif;
+    text-align: center;
+}
+@font-face {
+    font-family: 'Mojang';
+    src: url('../../fontes/Mojang-Regular.ttf') format('truetype'); /* Substitua pelo caminho correto */
+}
+#jogo {
+    margin: 50px auto;
+    width: 290px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.4); /* Fundo branco com 40% de transparência */
+    border-radius: 5%;
+}
+
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 0px;
+    margin-top: -10px;
+}
+
+#btnPedra{
+    width: 60px;
+    height: 60px;
+    background-image: url(../../images/pedra.png);
+    background-size: cover;
+    background-color: inherit;
+}
+
+#btnPapel{
+    width: 60px;
+    height: 60px;
+    background-image: url(../../images/papel.png);
+    background-size: cover;
+    background-color: inherit;
+}
+#btnTesoura{
+    width: 60px;
+    height: 60px;
+    background-image: url(../../images/tesoura.png);
+    background-size: cover;
+    background-color: inherit;
+}
+
+#resultado {
+    font-family: "Mojang",sans-serif;
+    margin-top: 20px;
+}
+
+.game{
+    width: 300px;
+    height: 400px;
+    background-image: url(../../images/fundoPPT.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    border: 8px solid burlywood;
+    position: relative;
+}
+
+.volta{
+    margin-top: 6px;
+    margin-right: 240px;
+    background-image: url(../../images/botãoVolta.png);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-color: inherit;
+    border-width: 0;
+}
+.menu{
+    margin-top: 5px;
+    width: 99%;
+    height: 60px;
+    
+}
+
+.escolha{
+    margin-right:auto ;
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 70px;
+    
+}
+.escolhap{
+    font-family: "Mojang",sans-serif;
+    color: black;
+    margin-top: 4px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}

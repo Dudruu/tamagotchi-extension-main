@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container cozinha">
+        <div>
+            <a href="banheiro.html">
+                <button class="navegar-direita">  </button>
+            </a>
+        </div>
+        <div>
+            <a href="fliperama.html">
+                <button class="navegar-esquerda">  </button>
+            </a>
+        </div>
+        <div class="status">
+            <div class="status-item">
+                <div class="fotoBarraFome" alt="Fome"></div>
+                <div class="bar" id="bar-fome">
+                    <div class="barint barintFome">
+                        <p>fome</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="status-item">
+                <div class="fotoBarraFelicidade" alt="Fome"></div>
+                <div class="bar" id="bar-felicidade">
+                    <div class="barint barintBrincar">
+                        <p>felicidade</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="status-item">
+                <div class="fotoBarraLimpeza" alt="Fome"></div>
+                <div class="bar" id="bar-limpeza">
+                    <div class="barint barintLimpeza">
+                        <p>limpeza</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="tamagotchi tamagotchi128"></div>
+        <div class="tamagotchi">
+            <img id="gif" src="images/teste.gif" alt="Tamagotchi">
+            <div id="sobrepoe"></div>
+        </div>
+        <div class="controls">
+            <div class="alimento">
+                <button  class="bAlimentar" draggable="true" id="alimentar"></button>
+            </div> 
+        </div>
+    </div>
+    <script defer src="script.js" defer></script>
+</body>
+</html>
