@@ -31,10 +31,10 @@ A aplicação foi desenvolvida utilizando **tecnologias web puras**, e pode ser 
 
 ---
 
-## 🧩 Estrutura do Projeto
 
+## 📂 Estrutura do Projeto
+```text
 tamagotchi-extension-main/
-│
 ├── index.html
 │
 ├── miniGames/
@@ -70,9 +70,7 @@ tamagotchi-extension-main/
 │   └── style.css
 │
 ├── images/
-│
 ├── fontes/
-│
 └── manifest.json
 
 ---
