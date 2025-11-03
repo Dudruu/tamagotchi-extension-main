@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge)
 
 Um projeto desenvolvido por quatro alunos do **Instituto Federal do Sul de Minas – Campus Pouso Alegre** para a disciplina de **Projeto Integrador**.  
 O objetivo é recriar, em ambiente web, a experiência de um **pet virtual** no estilo **Tamagotchi**, integrando elementos de interação, cuidado e entretenimento.
@@ -32,38 +32,37 @@ A aplicação foi desenvolvida utilizando **tecnologias web puras**, e pode ser 
 ---
 
 ## 🧩 Estrutura do Projeto
+
 tamagotchi-extension-main/
-├── index.html 
+├── index.html
 ├── miniGames/
-    ├── forca/
-        ├── script.js
-        ├── index.html
-        ├── style.css
-    ├── guessNum/
-        ├── script.js
-        ├── index.html
-        ├── style.css
-    ├── pedPapTes/
-        ├── script.js
-        ├── index.html
-        ├── style.css
-    ├── quiz/
-        ├── script.js
-        ├── index.html
-        ├── style.css
+│ ├── forca/
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── script.js
+│ ├── guessNum/
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── script.js
+│ ├── pedPapTes/
+│ │ ├── index.html
+│ │ ├── style.css
+│ │ └── script.js
+│ └── quiz/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
 ├── rooms/
-    ├── cozinha.html 
-    ├── banheiro.html 
-    ├── fliperama.html 
+│ ├── cozinha.html
+│ ├── banheiro.html
+│ └── fliperama.html
 ├── javascript/
-    ├── script.js 
-├──css/
-    ├── style.css # Estilos visuais
-├── manifest.json # Configuração da extensão Chrome
-├── images/ 
-└── fontes/ 
-
-
+│ └── script.js
+├── css/
+│ └── style.css
+├── images/
+├── fontes/
+└── manifest.json
 ---
 
 ## 💻 Como Executar
