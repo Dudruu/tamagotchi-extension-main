@@ -33,37 +33,46 @@ A aplicação foi desenvolvida utilizando **tecnologias web puras**, e pode ser 
 
 ## 🧩 Estrutura do Projeto
 
-ttamagotchi-extension-main/
+tamagotchi-extension-main/
 │
 ├── index.html
+│
 ├── miniGames/
 │   ├── forca/
 │   │   ├── index.html
 │   │   ├── style.css
 │   │   └── script.js
+│   │
 │   ├── guessNum/
 │   │   ├── index.html
 │   │   ├── style.css
 │   │   └── script.js
+│   │
 │   ├── pedPapTes/
 │   │   ├── index.html
 │   │   ├── style.css
 │   │   └── script.js
-│   ├── quiz/
-│   │   ├── index.html
-│   │   ├── style.css
-│   │   └── script.js
-│   └── rooms/
-│       ├── cozinha.html
-│       ├── banheiro.html
-│       └── fliperama.html
+│   │
+│   └── quiz/
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+│
+├── rooms/
+│   ├── cozinha.html
+│   ├── banheiro.html
+│   └── fliperama.html
 │
 ├── javascript/
 │   └── script.js
+│
 ├── css/
 │   └── style.css
+│
 ├── images/
+│
 ├── fontes/
+│
 └── manifest.json
 
 ---
